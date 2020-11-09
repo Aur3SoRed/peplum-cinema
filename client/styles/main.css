@@ -1,0 +1,30 @@
+body {
+  color: whitesmoke;
+  background-color: RGB(92, 1, 32);
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  justify-content: center;
+  border-color: blue;
+  border-width: 2px;
+  border-style: groove;
+}
+
+.p {
+  text-align: right;
+  width: 2px;
+}
+
+footer {
+  justify-content: center;
+  text-align: center;
+
+  align-items: center;
+  background-color: black;
+}
