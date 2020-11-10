@@ -24,6 +24,10 @@ Well right now, we've got a problem, for costume I consctruct a server with all 
 
 I tried yesterday, but i cannot do it all my proyections. I have to do it today, its an important part of the project, I can't desiste, if I can do it for the evening I'm in a very good way. Remember: Vainila Javascrpit and Node, that's all. First for server, late for db.
 
-[] Edite the index.js, testing if works and adapt for the HTML-CSS-JAVASCRIPT schema.
+[X] Edite the index.js, testing if works.
 
 [] Construct the tables and values for peplum.sql
+
+[] Install necessary dependencies
+
+[] Remember do it the 3 .json
