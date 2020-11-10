@@ -1,17 +1,20 @@
-//import http from http;
 import express from 'express';
 import bodyParser from 'body-parser';
+import dotenv from 'dotenv';
 
-const HOST = '127.0.0.1';
-const PORT = 4000;
+dotenv.config();
+
+const HOST = process.env.HOST || '127.0.0.1';
+const PORT = process.env.PORT || 5000;
 
 //const server = require('express');
-const app = express();
+const server = express();
+const { env } = process;
 
-app.use(bodyParser.json());
+console.log({ env });
 
-//app.use(express.static(__dirname + '/client/'));
+server.use(bodyParser.json());
 
-app.listen('4000', function () {
-  console.log(`Server listening ${PORT}`);
-});
+//server.use(express.static(__dirname + '/client/'));
+
+server.listen(PORT, () => console.log(`Server listening port ${PORT}`));
