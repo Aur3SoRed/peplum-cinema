@@ -12,6 +12,7 @@ import jsonResponse from './middlewares/json-response-middleware.js';
 
 // routers
 import healthRouter from './routes/health.js';
+import peplumRouter from './routes/peplum.js';
 
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 5000;
@@ -26,6 +27,7 @@ server.use(bodyParser.json());
 server.use(loggerMiddleware);
 server.use(jsonResponse);
 server.use(cors());
+server.use(peplumRouter);
 
 //routes
 server.use(healthRouter);
