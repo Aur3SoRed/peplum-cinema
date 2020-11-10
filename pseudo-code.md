@@ -26,8 +26,8 @@ I tried yesterday, but i cannot do it all my proyections. I have to do it today,
 
 [X] Edite the index.js, testing if works.
 
-[] Construct the tables and values for peplum.sql
+[X] Construct the tables and values for peplum.sql
 
-[] Install necessary dependencies
+[X] Install necessary dependencies
 
 [] Remember do it the 3 .json
