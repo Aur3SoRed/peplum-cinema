@@ -10,6 +10,9 @@ dotenv.config();
 import loggerMiddleware from './middlewares/logger-middleware.js';
 import jsonResponse from './middlewares/json-response-middleware.js';
 
+// routers
+import healthRouter from './routes/health.js';
+
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 5000;
 
@@ -23,6 +26,9 @@ server.use(bodyParser.json());
 server.use(loggerMiddleware);
 server.use(jsonResponse);
 server.use(cors());
+
+//routes
+server.use(healthRouter);
 
 //server.use(express.static(__dirname + '/client/'));
 
