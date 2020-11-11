@@ -1,26 +1,32 @@
-DROP TABLE IF EXISTS films;
-DROP TABLE IF EXISTS forum;
+DROP TABLE IF EXISTS peplum CASCADE;
+DROP TABLE IF EXISTS forum CASCADE;
 
-CREATE TABLE films (
-  title SERIAL PRIMARY KEY,
-  year NUMBER(4) NOT NULL,
+CREATE TABLE peplum (
+  peplum_id SERIAL PRIMARY KEY,
+  title CHAR(50),
+  release INTEGER NOT NULL,
   director CHAR(30),
   actor CHAR(30),
   actress CHAR(30),
-  countrycode CHAR(3),
+  countrycode CHAR(3)
 );
 
 CREATE TABLE forum (
-  review VARCHAR(2000),
-  id NUMBER NOT NULL,
-)
+  peplum_id INT REFERENCES peplum(peplum_id),
+  forum_id SERIAL PRIMARY KEY,
+  review VARCHAR(2000)
+);
 
-INSERT INTO  films (title, year, director, actor, actress, countrycode) VALUES
+INSERT INTO peplum (title, release, director, actor, actress, countrycode) VALUES
 ('Espartaco', 1960, 'Stanley Kubrick', 'Kirk Douglas', 'Jean Simmons', 'USA'),
 ('Quo vadis', 1951, 'Mervyn LeRoy', 'Peter Ustinov', 'Deborah Kerr', 'USA'),
+('Ben Hur', 1959, 'Billy Wyller', 'Charlton Heston', 'Haya Harareet', 'USA'),
+('Hércules', 1958, 'Pietro Francisci', 'Steve Reeves', 'Sylva Koscina', 'ITA');
 
 
 
-INSERT INTO forum (review, id) VALUES
-('coment1', '42d41625-20bc-4bdc-9e0b-97e4513e10a3'),
-('coment2', '7a3ace53-5aba-468a-9a4c-1df5da10d86b'),
+INSERT INTO forum (review) VALUES
+('I am Spartacus'),
+('Latin phrase meaning: Where are you marching?'),
+('Classic Christmas movie for christians'),
+('The worst works into history of world');
