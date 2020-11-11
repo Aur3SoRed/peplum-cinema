@@ -18,16 +18,34 @@ Well right now, we've got a problem, for costume I consctruct a server with all 
 
 [] Edite the index.js, testing if works and adapt for the HTML-CSS-JAVASCRIPT schema.
 
-[] Construct the tables and values for peplum.sql
+[X] Construct the tables and values for peplum.sql
 
-## TUESDAY 10N (MORNING)
+## TUESDAY 10N (MORNING AND AFTERNOON)
 
 I tried yesterday, but i cannot do it all my proyections. I have to do it today, its an important part of the project, I can't desiste, if I can do it for the evening I'm in a very good way. Remember: Vainila Javascrpit and Node, that's all. First for server, late for db.
 
 [X] Edite the index.js, testing if works.
 
-[X] Construct the tables and values for peplum.sql
-
 [X] Install necessary dependencies
 
-[] Remember do it the 3 .json
+[X] Construct start for models, controllers, middlewares and routes.
+
+I forgot separate the parts of morning and afternoon and right now, I don't remember. Well, the day was productive.
+
+## WEDNESDAY 11N (MORNING)
+
+Ok today I start later for administration issues, it's fine, for today I want to have a server with the SQL db conected.
+
+[X] Construct a db (peplum)
+
+[X] Create a table por peplum with TablePlus
+
+[] Conect server and database
+
+## WEDNESDAY 11N (AFTERNOON)
+
+[] Insert data into peplum(db)
+
+[] Construct a table named 'forum'
+
+[] Define 2 values for forum: a review and a relation with peplum table
