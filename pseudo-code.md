@@ -49,3 +49,5 @@ Ok today I start later for administration issues, it's fine, for today I want to
 [X] Construct a table named 'forum' and insert data
 
 [X] Define values for forum: a review and a relation with peplum table for id
+
+[] Conect server and database (Im working on this, but don't understood so well...)
