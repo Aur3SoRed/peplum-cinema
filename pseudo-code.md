@@ -44,8 +44,8 @@ Ok today I start later for administration issues, it's fine, for today I want to
 
 ## WEDNESDAY 11N (AFTERNOON)
 
-[] Insert data into peplum(db)
+[X] Insert data into peplum(db)
 
-[] Construct a table named 'forum'
+[X] Construct a table named 'forum' and insert data
 
-[] Define 2 values for forum: a review and a relation with peplum table
+[X] Define values for forum: a review and a relation with peplum table for id
