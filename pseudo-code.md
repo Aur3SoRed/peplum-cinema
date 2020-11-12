@@ -51,3 +51,9 @@ Ok today I start later for administration issues, it's fine, for today I want to
 [X] Define values for forum: a review and a relation with peplum table for id
 
 [] Conect server and database (Im working on this, but don't understood so well...)
+
+## THURSDAY 12N (MORNING)
+
+Well, I fought with TablePlus for all the afternoon and, for the moment, I win. Today is the most important day? It's possible, I want let done the conexion between server and db. No more delay, later I'll be able to worry about other questions.
+
+[] Conect server and database
