@@ -13,6 +13,7 @@ import jsonResponse from './middlewares/json-response-middleware.js';
 // routers
 import healthRouter from './routes/health.js';
 import peplumRouter from './routes/peplum.js';
+import forumRouter from './routes/forum.js';
 
 const HOST = process.env.HOST || '127.0.0.1';
 const PORT = process.env.PORT || 5000;
@@ -23,14 +24,16 @@ const { env } = process;
 
 console.log({ env });
 
+//middlewares
 server.use(bodyParser.json());
 server.use(loggerMiddleware);
 server.use(jsonResponse);
 server.use(cors());
-server.use(peplumRouter);
 
 //routes
 server.use(healthRouter);
+server.use(peplumRouter);
+server.use(forumRouter);
 
 //server.use(express.static(__dirname + '/client/'));
 
