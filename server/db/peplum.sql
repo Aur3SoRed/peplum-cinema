@@ -5,6 +5,7 @@ CREATE TABLE peplum (
   peplum_id SERIAL PRIMARY KEY,
   title CHAR(50),
   release INTEGER NOT NULL,
+  poster URL,
   director CHAR(30),
   actor CHAR(30),
   actress CHAR(30),
@@ -16,4 +17,11 @@ CREATE TABLE forum (
   forum_id SERIAL PRIMARY KEY,
   review VARCHAR(2000)
 );
+
+
+
+
+
+
+
 
