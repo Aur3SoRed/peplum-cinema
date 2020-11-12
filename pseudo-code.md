@@ -44,6 +44,8 @@ Ok today I start later for administration issues, it's fine, for today I want to
 
 ## WEDNESDAY 11N (AFTERNOON)
 
+(Forgotten descpription, but was a very productive day)
+
 [X] Insert data into peplum(db)
 
 [X] Construct a table named 'forum' and insert data
@@ -56,4 +58,16 @@ Ok today I start later for administration issues, it's fine, for today I want to
 
 Well, I fought with TablePlus for all the afternoon and, for the moment, I win. Today is the most important day? It's possible, I want let done the conexion between server and db. No more delay, later I'll be able to worry about other questions.
 
-[] Conect server and database
+[X] Conect server and database
+
+## THURSDAY 12N (AFTERNOON)
+
+Ok, I've got the peplum server connected, but theres 2 new problems. I forget introduce the value 'image (with a url)' into peplum TABLE, and the forum TABLE doesn't come with Postman.
+
+[X] Serching posters of release of films, introduce into a folder ./docs only for documentation and future reconstruction with Cloudinary.
+
+[] Connection for forum TABLE
+
+[X] Introduce images into peplum TABLE
+
+[] TablePlus and Postman can't read the posters of films, repair it.
