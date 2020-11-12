@@ -71,3 +71,6 @@ Ok, I've got the peplum server connected, but theres 2 new problems. I forget in
 [X] Introduce images into peplum TABLE
 
 [] TablePlus and Postman can't read the posters of films, repair it.
+
+[X] Introduce another film into db for look about the error is into the code or in the actualization of data
+//////////DOESN'T WORK THE PROBLEM IS THE REFRESH OF DATA, NOT THE IMAGE//////////////
