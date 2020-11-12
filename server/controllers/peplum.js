@@ -1,9 +1,12 @@
 import { peplumGetList } from '../models/peplum.js';
 
 export const peplumList = async (request, response) => {
-  const peplum = await getListPeplums();
+  try {
+    const peplum = await getListPeplums();
 
-  return response.send({
-    message: 'Ave Cesar',
-  });
+    return response.status(200).send(peplum);
+  } catch (error) {
+    const { message } = error;
+    return response.status(500).send({ messsage });
+  }
 };

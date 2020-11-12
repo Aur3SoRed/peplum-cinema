@@ -17,5 +17,3 @@ CREATE TABLE forum (
   review VARCHAR(2000)
 );
 
-
-
