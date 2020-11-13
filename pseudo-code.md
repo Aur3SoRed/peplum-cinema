@@ -66,7 +66,7 @@ Ok, I've got the peplum server connected, but theres 2 new problems. I forget in
 
 [X] Serching posters of release of films, introduce into a folder ./docs only for documentation and future reconstruction with Cloudinary.
 
-[] Connection for forum TABLE
+[X] Connection for forum TABLE
 
 [X] Introduce images into peplum TABLE
 
@@ -74,3 +74,13 @@ Ok, I've got the peplum server connected, but theres 2 new problems. I forget in
 
 [X] Introduce another film into db for look about the error is into the code or in the actualization of data
 //////////DOESN'T WORK THE PROBLEM IS THE REFRESH OF DATA, NOT THE IMAGE//////////////
+
+## FRIDAY 13N (MORNING)
+
+Its so tired yet, so many hours... Well, doesnt work. Just before write this lines, I test if deleting Tables its posible introduce new data(the images for url), but I have an important error, url isnt a property for sql, i was believed that all the week, but reading forums I see that not. Ok, I want finish all part of server and db if its posible...
+
+[X] Investigate how yo can introduce a url into database for load an image
+
+[] Conect db and server to the client and see if the data looks
+
+[] Complete the CRUD system
