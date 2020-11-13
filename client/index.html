@@ -16,5 +16,17 @@
       Facere, aliquam?
     </p>
     <footer>OTHER PAGES</footer>
+    <script>
+      window.addEventListener('load', function () {
+        const peplum = new XMLHttpRequest();
+        peplum.open('GET', '../scripts/index.js');
+        peplum.onload = function () {
+          document.getElementById(
+            'AQUI DEBERIA IR UN ID QUE ASIGNASES DENTRO DE UN DIV ID ARRIBA PARA HACER LOS USUARIOS, SI NO QUIERES HACER LOS USUARIOS NO SE QUE DEMONIOS VA AQUI',
+          );
+        };
+        peplum.send();
+      });
+    </script>
   </body>
 </html>
