@@ -1,4 +1,4 @@
-## THE PROJECT END THE 16N MONDAY'S NIGHT AT 23:59.
+## THE PROJECT END THE 18N WEDNESDAY'S NIGHT AT 08:30
 
 ## MONDAY 9N (MORNING)
 
@@ -84,3 +84,19 @@ Its so tired yet, so many hours... Well, doesnt work. Just before write this lin
 [] Conect db and server to the client and see if the data looks
 
 [] Complete the CRUD system
+
+## FRIDAY 13N (AFTERNOON)
+
+Ok, server and db are conected, the images are included into tables with BYTEA that serialise all data. The error with the client is something tha cant permit than CORS is readed like http when I init the client on navegator. In this moment is not so late, so I think the better way is delete the HTML-CSS-VANILAJS system and construct the client with REACT because i've got more examples and background.
+
+[X] Delete the client
+
+[] Do a new client with React
+
+## SATURDAY 14N
+
+Yesterday was not productive, the client is a true challenge for me right now, becaus I want do it with HTML-CSS-VANILA JS but I'm more experience with React (althought I dont controll so well). Dejà le weight of this project and the time is so high, I need more easier, so for this React is better option, I have got more documentation too.
+
+[] Retouch server for its posible the development of users
+
+[] Client with React
