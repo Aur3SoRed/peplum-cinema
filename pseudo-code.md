@@ -99,4 +99,18 @@ Yesterday was not productive, the client is a true challenge for me right now, b
 
 [] Retouch server for its posible the development of users
 
-[] Client with React
+[X] Client with React
+
+## MONDAY 16N (MORNING)
+
+This weekend I fought vs the front-end because I dont remember just about nothing. The principal part of my time was research info and I only can run the installation of React, reset a previos commit on Github and be more confuse about how I have to do it next steps.
+
+[] Run the client and see the React app
+
+[] Do something similar to a Hello World
+
+[] Add a piece of Sass
+
+[] Conect server-client
+
+[] Load the data into the visualitazion of front-end
