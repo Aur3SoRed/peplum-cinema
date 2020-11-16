@@ -3,8 +3,11 @@ import logger from '../lib/logger.js';
 
 const { Pool } = pg;
 
+// TODO: Cambiar este role por el de Jose Aurelio
+const databaseRole = 'pataruco';
+
 const pool = new Pool({
-  connectionString: 'posgresql://joseaurelio:619@127.0.0.1:5432/peplum',
+  connectionString: `posgresql://${databaseRole}:619@127.0.0.1:5432/peplum`,
 });
 
 export const query = async ({ tag = '', queryString, params }) => {
