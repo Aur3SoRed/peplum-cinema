@@ -4,7 +4,7 @@ export const getData = async () => {
     const data = await response.json();
     console.log({ data });
     // console.log(peplumData);
-    // return peplumData;
+    return data;
   } catch (error) {
     console.log(error);
   }

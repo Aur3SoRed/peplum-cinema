@@ -2,7 +2,9 @@ import React from 'react';
 import { getData } from '../lib/getData.js';
 
 class Peplum extends React.Component {
-  state = { peplum: [] };
+  state = {
+    peplum: [],
+  };
   async componentDidMount() {
     try {
       const resp = await getData();
@@ -15,7 +17,26 @@ class Peplum extends React.Component {
     }
   }
   render() {
-    return <h2>Aquí las películas</h2>;
+    return (
+      <>
+        <header>PEPLUM CINÉMA</header>
+        <div>
+          <div>
+            {this.state.peplum.map((film) => (
+              <div key={film.peplum_id}>
+                <h2>{film.title}</h2>
+                <h2>{film.release}</h2>
+                <h3>{film.countrycode}</h3>
+                <img src={film.poster}></img>
+                <h3>{film.director}</h3>
+                <h4>{film.actor}</h4>
+                <h4>{film.actress}</h4>
+              </div>
+            ))}
+          </div>
+        </div>
+      </>
+    );
   }
 }
 

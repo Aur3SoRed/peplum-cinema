@@ -4,7 +4,7 @@ import logger from '../lib/logger.js';
 const { Pool } = pg;
 
 // TODO: Cambiar este role por el de Jose Aurelio
-const databaseRole = 'pataruco';
+const databaseRole = 'joseaurelio';
 
 const pool = new Pool({
   connectionString: `posgresql://${databaseRole}:619@127.0.0.1:5432/peplum`,
