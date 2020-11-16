@@ -5,7 +5,7 @@ CREATE TABLE peplum (
   peplum_id SERIAL PRIMARY KEY,
   title CHAR(50),
   release INTEGER NOT NULL,
-  poster BYTEA,
+  poster CHAR,
   director CHAR(30),
   actor CHAR(30),
   actress CHAR(30),
@@ -20,3 +20,5 @@ CREATE TABLE forum (
 
 
 SELECT * FROM forum WHERE forum.peplum_id = (SELECT peplum.peplum_id FROM peplum WHERE LOWER (peplum."title") LIKE '%hercules%');
+
+SELECT * FROM peplum WHERE LOWER (peplum."title") LIKE '%ben hur%';
