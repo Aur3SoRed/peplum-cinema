@@ -3,13 +3,13 @@ DROP TABLE IF EXISTS forum CASCADE;
 
 CREATE TABLE peplum (
   peplum_id SERIAL PRIMARY KEY,
-  title CHAR(50),
+  title VARCHAR(50),
   release INTEGER NOT NULL,
   poster TEXT,
-  director CHAR(30),
-  actor CHAR(30),
-  actress CHAR(30),
-  countrycode CHAR(3)
+  director VARCHAR(30),
+  actor VARCHAR(30),
+  actress VARCHAR(30),
+  countrycode VARCHAR(3)
 );
 
 CREATE TABLE forum (
