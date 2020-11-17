@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route exact path="/home" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/peplum" component={Peplum} />
           <Route path="/forum" component={Forum} />
           <Route path="/*" component={Error} />
