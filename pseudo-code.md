@@ -127,14 +127,16 @@ This weekend I fought vs the front-end because I dont remember just about nothin
 
 Its the last day, finally I can see all the data and the front-end part, im not so good with design and there are parts that arent ready like the protection of routes and the CRUD system. Later, at afternoon its time of deployment.
 
+[X] Repair the conexion to forum
+
 [] Complete CRUD system
 
 [] Protect the posting and deleting
 
-[] Finish with the design
+[X] Finish with the design
 
 [X] Include the wireframes
 
-[] React the readme
+[X] Redact the readme
 
 [] At the final, do the deployment

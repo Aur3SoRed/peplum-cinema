@@ -35,29 +35,10 @@ yarn dev # nodemon localhos:5001`
 - A responsive design for enjouy our web with the mobile also.
 - The collection musn't reset when we refresh the page.
 
-## Game logic
-
-Game logic for index
-![](https://i.ibb.co/k6kKpgB/React-to-Pokemon-APIs-P-gina-2.jpg)
-
-Game logic for colection
-![](https://i.ibb.co/3pw9kdh/React-to-Pokemon-APIs-P-gina-3.jpg)
-
-Game logic for the capture pokemon
-![](https://i.ibb.co/tXSgSMb/React-to-Pokemon-APIs-P-gina-4.jpg)
-
 ## Authorship
 
-This project is a web development done for 4 students of General Assembly in to the context of a spanish online bootcamp. This Hall of Fame is:
+José Aurelio Atenza Martínez.
 
-Alejandro Márquez Seco
+Web development software enginering bootcamp engineering for General Assembly.
 
-Gerardo Ezequiel Martín Carreño
-
-Jose Aurelio Atenza Martínez
-
-Yerell Bernardino Murillo
-
-Gonna catch them all!
-
-![](https://media.giphy.com/media/DRfu7BT8ZK1uo/giphy.gif)
+9-17/NOVEMBER/2020.
