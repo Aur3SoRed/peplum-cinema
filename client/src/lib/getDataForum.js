@@ -1,6 +1,6 @@
 export const getDataForum = async () => {
   try {
-    const response = await fetch('http://127.0.0.1:5001/forum');
+    const response = await fetch(`${process.env.REACT_APP_SERVER_URL}/forum`);
     const data = await response.json();
     console.log({ data });
     // console.log(peplumData);
@@ -14,7 +14,9 @@ export const getFilterForum = async (query) => {
   console.log(query);
   console.log('hola');
   try {
-    const response = await fetch(`http://127.0.0.1:5001/forum?peplum=${query}`);
+    const response = await fetch(
+      `${process.env.REACT_APP_SERVER_URL}/forum?peplum=${query}`,
+    );
     const data = await response.json();
     console.log({ data });
     // console.log(peplumData);
