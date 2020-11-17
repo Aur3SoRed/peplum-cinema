@@ -5,6 +5,7 @@
   "repository": "git@github.com:Aur3SoRed/peplum-cinema.git",
   "author": "joseaurelio <jatenzared@gmail.es>",
   "license": "MIT",
+  "private": true,
   "devDependencies": {
     "lerna": "^3.22.1"
   },
