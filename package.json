@@ -5,11 +5,14 @@
   "repository": "git@github.com:Aur3SoRed/peplum-cinema.git",
   "author": "joseaurelio <jatenzared@gmail.es>",
   "license": "MIT",
-  "dependencies": {
-    "lerna": "^3.22.1",
-    "pg": "^8.5.0"
+  "devDependencies": {
+    "lerna": "^3.22.1"
   },
+  "workspaces": [
+    "server",
+    "client"
+  ],
   "scripts": {
-    "start": "yarn workspace server dev"
+    "start": "yarn workspace server start"
   }
 }
