@@ -2,13 +2,15 @@ body {
   color: rgb(185, 25, 47);
   text-align: justify;
   background-color: black;
-
-  //background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.wallpaperscraft.com%2Fimage%2Fcolumns_architecture_antique_145879_1920x1080.jpg&f=1&nofb=1');
-  //backgroundsize: contain;
+  text-align: center;
+  padding: 50px;
+  //align-items: length($list: poster);
+  //border: solid 2px chartreuse;
   //background-repeat: no-repeat;
 }
 
-picture {
-  display: block;
-  size: 75px;
+#film.poster {
+  border: solid 2px chartreuse;
+  width: 100px;
+  height: 100px;
 }

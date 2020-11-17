@@ -111,8 +111,30 @@ This weekend I fought vs the front-end because I dont remember just about nothin
 
 [X] Add a piece of Sass
 
-[] Conect server-client
+[X] Conect server-client
 
-[] Load the data into the visualitazion of front-end
+## MONDAY 16N (AFTERNOON)
 
-[] Construct and define pages into the client
+[X] Load the data into the visualitazion of front-end
+
+[X] Construct and define pages into the client
+
+[X] A first design for frontend
+
+[X] CRUD into peplum and forum routes
+
+## TUESDAY 17N (MORNING)
+
+Its the last day, finally I can see all the data and the front-end part, im not so good with design and there are parts that arent ready like the protection of routes and the CRUD system. Later, at afternoon its time of deployment.
+
+[] Complete CRUD system
+
+[] Protect the posting and deleting
+
+[] Finish with the design
+
+[X] Include the wireframes
+
+[] React the readme
+
+[] At the final, do the deployment
