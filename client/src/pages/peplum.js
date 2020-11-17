@@ -27,7 +27,7 @@ class Peplum extends React.Component {
                 <h2>{film.title}</h2>
                 <h2>{film.release}</h2>
                 <h3>{film.countrycode}</h3>
-                <img src={film.poster}></img>
+                <img sizes="50px" src={film.poster}></img>
                 <h3>{film.director}</h3>
                 <h4>{film.actor}</h4>
                 <h4>{film.actress}</h4>
