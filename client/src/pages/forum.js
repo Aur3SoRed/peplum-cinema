@@ -27,7 +27,8 @@ class Forum extends React.Component {
     try {
       console.log(this.state.peplum);
       const dataF = this.state.peplum;
-      const forumData = await getFilterForum(dataF);
+      const forumData = await getFilterForum(dataF.peplum);
+      console.log(dataF.peplum);
       console.log({ forumData });
       this.setState({ forum: forumData });
     } catch (error) {

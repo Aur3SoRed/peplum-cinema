@@ -39,6 +39,6 @@ yarn dev # nodemon localhos:5001`
 
 José Aurelio Atenza Martínez.
 
-Web development software enginering bootcamp engineering for General Assembly.
+Web development software engineering bootcamp for General Assembly.
 
 9-17/NOVEMBER/2020.
